@@ -11,6 +11,19 @@ Repository for the Phendrana Keyboard
 - Cherry MX and Kailh Choc compatible
 - Hotswap Switches, Battery, and MCU
 
+## Firmware
+Firmware can be found [here:](https://github.com/LegoRocket/Phendrana-ZMK)
+
+### Compiling
+To compile firmware for Phendrana
+1. Download the Phendrana Firmware repo
+2. Follow the [ZMK Toolchain Setup](https://zmk.dev/docs/development/setup) Guide Local Build Guide
+3. Place the Phendrana files in the zmk/app/boards/shields/Phendrana folder (you will need to make the folder)
+  - It should look like below:
+4. Open the zmk/app folder in terminal
+5. Use the command "west build -b -p nrf52840 --DSHIELD=phendrana_left" to build the left half firmware
+6. Use the command "west build -b -p nrf52840 --DSHIELD=phendrana_right" to build the right firmware
+
 ## Inspirations
 - [The Sanctuary](https://github.com/LegoRocket/Sanctuary-Keyboard-Hardware)
 - [ZMK](https://zmk.dev/)
