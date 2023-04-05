@@ -1,5 +1,5 @@
 # Phendrana
-Repository for the Phendrana Keyboard
+Repository for the Phendrana Keyboard - a split keyboard based on the nrf52840 and ZMK
 ## Photos
 
 ## Demo
@@ -23,6 +23,7 @@ To compile firmware for Phendrana
 4. Open the zmk/app folder in terminal
 5. Use the command "west build -b -p nrf52840 --DSHIELD=phendrana_left" to build the left half firmware
 6. Use the command "west build -b -p nrf52840 --DSHIELD=phendrana_right" to build the right firmware
+7. Upload both firmwares, to their respective halves, attempt to powerup at a similar time (The halves should automatically connect to each other)
 
 ## Inspirations
 - [The Sanctuary](https://github.com/LegoRocket/Sanctuary-Keyboard-Hardware)
@@ -30,3 +31,4 @@ To compile firmware for Phendrana
 - [Quefrency](https://keeb.io/collections/quefrency-split-staggered-65-keyboard)
 
 ## Versions
+Rev 1.0.0 - Initial Release - Small errors, requiring 1 wire for USB connection, as well as other small wires to fix small trace errors
