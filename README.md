@@ -17,8 +17,9 @@ Repository for the Phendrana Keyboard - a split keyboard based on the nrf52840 a
 Firmware can be found [here:](https://github.com/LegoRocket/Phendrana-ZMK)
 
 ### Compiling
-To compile firmware for Phendrana
-0. Ensure the .UF2 bootloader is installed from here: (to be added later) (Version * currently works)
+To compile firmware for Phendrana:
+Before flashing, ensure the .UF2 bootloader is installed. It should be version 0.7.0, which can be downloaded [here](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/tag/0.7.0)
+- The file should be named "nrf52840_m2_bootloader-0.7.0_s140_6.1.1.hex", if the M.2 is bought seperately, you will need the [Makerdiary Developer Kit Dock](https://makerdiary.com/products/nrf52840-m2-developer-kit) to upload it
 1. Download the Phendrana Firmware repo
 2. Follow the [ZMK Toolchain Setup](https://zmk.dev/docs/development/setup) Guide Local Build Guide
 3. Place the Phendrana files in the zmk/app/boards/shields/Phendrana folder (you will need to make the folder)
