@@ -31,5 +31,18 @@ To compile firmware for Phendrana
 - [ZMK](https://zmk.dev/)
 - [Quefrency](https://keeb.io/collections/quefrency-split-staggered-65-keyboard)
 
+## Hardware Files
+
+Currently the Hardware files are not released. The 3d case files are intended to be released at one point, however I wish to fix the files first, and provide more files for different versions of Phendrana.
+
+KiCAD/Gerber files likely won't be released, and neither would the BOM. This is because it wasn't really designed to be built by others, and I'd want to do a complete overhaul if others were to build one. If you'd like Phendrana, contact me
+
 ## Versions
 Rev 1.0.0 - Initial Release - Small errors, requiring 1 wire for USB connection, as well as other small wires to fix small trace errors
+
+## Socials
+#### [- Linktree:](https://linktr.ee/Lego_Rocket)
+#### [- Youtube:](https://rebrickable.com/users/Lego_Rocket/)
+#### [- Instagram:](https://www.instagram.com/lego_rocket_08/)
+
+Note: This PCB was paid for by [PCBWay](https://pcbway.com/g/plrRz7), I was not paid beyond a free PCB, however if you'd like to support further projects, consider using the referral link 
