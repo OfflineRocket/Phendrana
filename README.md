@@ -25,8 +25,8 @@ Before flashing, ensure the .UF2 bootloader is installed. It should be version 0
 3. Place the Phendrana files in the zmk/app/boards/shields/Phendrana folder (you will need to make the folder)
   - It should look like below:
 4. Open the zmk/app folder in terminal
-5. Use the command "west build -b -p nrf52840 --DSHIELD=phendrana_left" to build the left half firmware
-6. Use the command "west build -b -p nrf52840 --DSHIELD=phendrana_right" to build the right firmware
+5. Use the command "west build -b -p nrf52840_m2 -- -DSHIELD=phendrana_left" to build the left half firmware
+6. Use the command "west build -b -p nrf52840_m2 -- -DSHIELD=phendrana_right" to build the right firmware
 7. Upload both firmwares, to their respective halves, attempt to powerup at a similar time (The halves should automatically connect to each other)
 
 ## Inspirations
