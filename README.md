@@ -1,8 +1,8 @@
 # Phendrana
 Repository for the Phendrana Keyboard - a split keyboard based on the nrf52840 and ZMK
-## Photos
+## Photo
 ![Photo1](/Photos/20230405_115505.jpg)
-## Demo
+## Demo Video
 
 [![PhendranaDemoVideo](https://img.youtube.com/vi/Mj67zJ9yEYU/0.jpg)](https://youtu.be/Mj67zJ9yEYU)
 
@@ -51,5 +51,6 @@ Rev 1.0.0 - Initial Release - Small errors, requiring 1 wire for USB connection,
 #### [- Linktree:](https://linktr.ee/Lego_Rocket)
 #### [- Youtube:](https://rebrickable.com/users/Lego_Rocket/)
 #### [- Instagram:](https://www.instagram.com/lego_rocket_08/)
+
 
 Note: This PCB was paid for by [PCBWay](https://pcbway.com/g/plrRz7), I was not paid beyond a free PCB, however if you'd like to support further projects, consider using the referral link 
