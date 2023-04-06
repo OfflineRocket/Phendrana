@@ -22,8 +22,10 @@ Before flashing, ensure the .UF2 bootloader is installed. It should be version 0
 - The file should be named "nrf52840_m2_bootloader-0.7.0_s140_6.1.1.hex", if the M.2 is bought seperately, you will need the [Makerdiary Developer Kit Dock](https://makerdiary.com/products/nrf52840-m2-developer-kit) to upload it
 1. Download the Phendrana Firmware repo
 2. Follow the [ZMK Toolchain Setup](https://zmk.dev/docs/development/setup) Guide Local Build Guide
-3. Place the Phendrana files in the zmk/app/boards/shields/Phendrana folder (you will need to make the folder)
+3. Place the Phendrana files in the zmk/app/boards/shields/phendrana folder (you will need to make the folder)
   - It should look like below:
+  ![Screenshot 2023-04-06 165659](https://user-images.githubusercontent.com/31601733/230492485-16127788-ba0f-4520-8b1a-653b06c67110.png)
+
 4. Open the zmk/app folder in terminal
 5. Use the command "west build -b -p nrf52840_m2 -- -DSHIELD=phendrana_left" to build the left half firmware
 6. Use the command "west build -b -p nrf52840_m2 -- -DSHIELD=phendrana_right" to build the right firmware
