@@ -1,7 +1,7 @@
 # Phendrana
 Repository for the Phendrana Keyboard - a split keyboard based on the nrf52840 and ZMK
 ## Photos
-
+![Photo1](/Photos/20230405_225505.jpg)
 ## Demo
 
 ## Features
@@ -16,6 +16,7 @@ Firmware can be found [here:](https://github.com/LegoRocket/Phendrana-ZMK)
 
 ### Compiling
 To compile firmware for Phendrana
+0. Ensure the .UF2 bootloader is installed from here: (to be added later) (Version * currently works)
 1. Download the Phendrana Firmware repo
 2. Follow the [ZMK Toolchain Setup](https://zmk.dev/docs/development/setup) Guide Local Build Guide
 3. Place the Phendrana files in the zmk/app/boards/shields/Phendrana folder (you will need to make the folder)
