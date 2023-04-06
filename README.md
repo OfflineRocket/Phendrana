@@ -1,7 +1,7 @@
 # Phendrana
 Repository for the Phendrana Keyboard - a split keyboard based on the nrf52840 and ZMK
 ## Photos
-![Photo1](/Photos/20230405_225505.jpg)
+![Photo1](/Photos/20230405_115505.jpg)
 ## Demo
 
 ## Features
