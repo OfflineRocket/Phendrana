@@ -4,6 +4,8 @@ Repository for the Phendrana Keyboard - a split keyboard based on the nrf52840 a
 ![Photo1](/Photos/20230405_115505.jpg)
 ## Demo
 
+[![PhendranaDemoVideo](https://img.youtube.com/vi/Mj67zJ9yEYU/0.jpg)](https://youtu.be/Mj67zJ9yEYU)
+
 ## Features
 - Longer Battery Life
 - Multiple Bluetooth Connections
